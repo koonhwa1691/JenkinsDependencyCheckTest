@@ -4,7 +4,7 @@ pipeline {
     stage('Checkout SCM') {
       steps {
         git '/JenkinsDependencyCheckTest'
-        credentialsId: 'a593748e-d461-447f-a055-7979f14565b1'
+        
       }
     }
 
